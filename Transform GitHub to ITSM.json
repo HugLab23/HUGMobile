@@ -36,11 +36,6 @@
       "targetPath": "json/create_IncidentRequest/item/TemplateID"
     },
     {
-      "targetNode": "json$create_IncidentRequest$item.Description$",
-      "script": "<trans>\n'New GitHub Issue: '+json$issue$title$\n</trans>",
-      "targetPath": "json/create_IncidentRequest/item/Description"
-    },
-    {
       "targetNode": "json$create_IncidentRequest$item.Reported_Source$",
       "script": "<trans>\n'External Escalation'\n</trans>",
       "targetPath": "json/create_IncidentRequest/item/Reported_Source"
@@ -56,9 +51,9 @@
       "targetPath": "json/create_IncidentRequest/item"
     },
     {
-      "targetNode": "json$create_IncidentRequest$item.Categorization_Tier_3$",
-      "script": "<trans>\n\n</trans>",
-      "targetPath": "json/create_IncidentRequest/item/Categorization_Tier_3"
+      "targetNode": "json$create_IncidentRequest$item.Categorization_Tier_1$",
+      "script": "<trans></trans>",
+      "targetPath": "json/create_IncidentRequest/item/Categorization_Tier_1"
     },
     {
       "targetNode": "json$create_IncidentRequest$item.Categorization_Tier_2$",
@@ -66,9 +61,14 @@
       "targetPath": "json/create_IncidentRequest/item/Categorization_Tier_2"
     },
     {
-      "targetNode": "json$create_IncidentRequest$item.Categorization_Tier_1$",
+      "targetNode": "json$create_IncidentRequest$item.Categorization_Tier_3$",
+      "script": "<trans></trans>",
+      "targetPath": "json/create_IncidentRequest/item/Categorization_Tier_3"
+    },
+    {
+      "targetNode": "json$create_IncidentRequest$item.Description$",
       "script": "<trans>\n\n</trans>",
-      "targetPath": "json/create_IncidentRequest/item/Categorization_Tier_1"
+      "targetPath": "json/create_IncidentRequest/item/Description"
     }
   ]
 }
