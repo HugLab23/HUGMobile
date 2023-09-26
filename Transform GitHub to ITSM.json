@@ -1,0 +1,74 @@
+{
+  "mappings": [
+    {
+      "targetNode": "json$create_IncidentRequest$item.Urgency$",
+      "script": "<trans>\n'1-Critical'\n</trans>",
+      "targetPath": "json/create_IncidentRequest/item/Urgency"
+    },
+    {
+      "targetNode": "json$create_IncidentRequest$item.Service_Type$",
+      "script": "<trans>\n\"User Service Restoration\"\n</trans>",
+      "targetPath": "json/create_IncidentRequest/item/Service_Type"
+    },
+    {
+      "targetNode": "json$create_IncidentRequest$item.Status$",
+      "script": "<trans>\n'Assigned'\n</trans>",
+      "targetPath": "json/create_IncidentRequest/item/Status"
+    },
+    {
+      "targetNode": "json$create_IncidentRequest$item.First_Name$",
+      "script": "<trans>\n'Helix'\n</trans>",
+      "targetPath": "json/create_IncidentRequest/item/First_Name"
+    },
+    {
+      "targetNode": "json$create_IncidentRequest$item.Last_Name$",
+      "script": "<trans>\n'Service'\n</trans>",
+      "targetPath": "json/create_IncidentRequest/item/Last_Name"
+    },
+    {
+      "targetNode": "json$create_IncidentRequest$item.ApplyTemplate$",
+      "script": "<trans>\ntrue\n</trans>",
+      "targetPath": "json/create_IncidentRequest/item/ApplyTemplate"
+    },
+    {
+      "targetNode": "json$create_IncidentRequest$item.TemplateID$",
+      "script": "<trans>\n'IDGC5296JSD9DARUR6CIRUR6CI3YJG'\n</trans>",
+      "targetPath": "json/create_IncidentRequest/item/TemplateID"
+    },
+    {
+      "targetNode": "json$create_IncidentRequest$item.Description$",
+      "script": "<trans>\n'New GitHub Issue: '+json$issue$title$\n</trans>",
+      "targetPath": "json/create_IncidentRequest/item/Description"
+    },
+    {
+      "targetNode": "json$create_IncidentRequest$item.Reported_Source$",
+      "script": "<trans>\n'External Escalation'\n</trans>",
+      "targetPath": "json/create_IncidentRequest/item/Reported_Source"
+    },
+    {
+      "targetNode": "json$create_IncidentRequest$item.Detailed_Decription$",
+      "script": "<trans>\njson$issue$body$+\"\n\n\"+json$issue$html_url$\n</trans>",
+      "targetPath": "json/create_IncidentRequest/item/Detailed_Decription"
+    },
+    {
+      "targetNode": "json$create_IncidentRequest$item.",
+      "script": "<trans>\nIf(json$action$ == 'opened', true, false)\n</trans>",
+      "targetPath": "json/create_IncidentRequest/item"
+    },
+    {
+      "targetNode": "json$create_IncidentRequest$item.Categorization_Tier_1$",
+      "script": "<trans>\n'Applications'\n</trans>",
+      "targetPath": "json/create_IncidentRequest/item/Categorization_Tier_1"
+    },
+    {
+      "targetNode": "json$create_IncidentRequest$item.Categorization_Tier_2$",
+      "script": "<trans>\n'DevOps'\n</trans>",
+      "targetPath": "json/create_IncidentRequest/item/Categorization_Tier_2"
+    },
+    {
+      "targetNode": "json$create_IncidentRequest$item.Categorization_Tier_3$",
+      "script": "<trans>\n'JIRA'\n</trans>",
+      "targetPath": "json/create_IncidentRequest/item/Categorization_Tier_3"
+    }
+  ]
+}
