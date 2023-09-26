@@ -57,17 +57,17 @@
     },
     {
       "targetNode": "json$create_IncidentRequest$item.Categorization_Tier_1$",
-      "script": "<trans>\n'Applications'\n</trans>",
+      "script": "<trans></trans>",
       "targetPath": "json/create_IncidentRequest/item/Categorization_Tier_1"
     },
     {
       "targetNode": "json$create_IncidentRequest$item.Categorization_Tier_2$",
-      "script": "<trans>\n'DevOps'\n</trans>",
+      "script": "<trans></trans>",
       "targetPath": "json/create_IncidentRequest/item/Categorization_Tier_2"
     },
     {
       "targetNode": "json$create_IncidentRequest$item.Categorization_Tier_3$",
-      "script": "<trans>\n'JIRA'\n</trans>",
+      "script": "<trans></trans>",
       "targetPath": "json/create_IncidentRequest/item/Categorization_Tier_3"
     }
   ]
