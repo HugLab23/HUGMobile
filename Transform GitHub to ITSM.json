@@ -54,21 +54,6 @@
       "targetNode": "json$create_IncidentRequest$item.",
       "script": "<trans>\nIf(json$action$ == 'opened', true, false)\n</trans>",
       "targetPath": "json/create_IncidentRequest/item"
-    },
-    {
-      "targetNode": "json$create_IncidentRequest$item.Categorization_Tier_1$",
-      "script": "<trans></trans>",
-      "targetPath": "json/create_IncidentRequest/item/Categorization_Tier_1"
-    },
-    {
-      "targetNode": "json$create_IncidentRequest$item.Categorization_Tier_2$",
-      "script": "<trans></trans>",
-      "targetPath": "json/create_IncidentRequest/item/Categorization_Tier_2"
-    },
-    {
-      "targetNode": "json$create_IncidentRequest$item.Categorization_Tier_3$",
-      "script": "<trans></trans>",
-      "targetPath": "json/create_IncidentRequest/item/Categorization_Tier_3"
     }
   ]
 }
